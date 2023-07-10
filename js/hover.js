@@ -47,7 +47,7 @@ var callButton = document.querySelector('#callbox');
 
 
 callButton.addEventListener('click', function () {
-    var textToCopy2 = '0332756233';
+    var textToCopy2 = 'xxxxxxx233';
     var hiddenInput2 = document.createElement('input');
     hiddenInput2.setAttribute('value', textToCopy2);
     document.body.appendChild(hiddenInput2);
@@ -67,7 +67,7 @@ callButton.addEventListener('click', function () {
     calltext.innerHTML = "Copied";
     calltext.style.setProperty('color', '#fff');
     setTimeout(function () {
-        calltext.innerHTML = "(+84) 332 756 233";
+        calltext.innerHTML = "(+84) xxx xxx 233";
     }, 1000);
 });
 $('.contactbox').hover(
