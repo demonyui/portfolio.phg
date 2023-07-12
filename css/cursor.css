@@ -50,8 +50,8 @@
 .cursor:after {
     animation-delay: 0.5s;
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .cursorbox {
         display: none;
     }
-} */
+}

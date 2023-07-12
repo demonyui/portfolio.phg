@@ -370,14 +370,21 @@ a:hover {
         height: 350px;
         top: 300px;
     }
+    .job {
+        font-size: 24px;
+    }
+
+    .about1a {
+        font-size: 14px;
+    }
 
     .about1b {
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .content {
         color: #FFEEDE;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .nav-link:before {
@@ -405,6 +412,7 @@ a:hover {
 }
 
 .contenta {
+    margin-top: 14px;
     color: #FFEEDE;
     font-size: 18px;
     animation-delay: 2s;
